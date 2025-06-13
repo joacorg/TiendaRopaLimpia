@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: white;
+  font-family: sans-serif;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 125px 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-content {
+  max-width: 550px;
+}
+
+.about-content h2 {
+  font-size: 35px;
+  color: rgb(1, 170, 1);
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0px; /* antes estaba en 20px o más */
+}
+
+.producto {
+  width: 100%;
+  max-width: 200px;
+  object-fit: contain;
+}
+  
+
+
+.volver-btn {
+  display: block;
+  margin: 40px auto 0;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: #0a0a0a;
+  background-color: #4ef037;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  width: fit-content;
+}
+
+.volver-btn:hover {
+  background-color: #3cc028;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .imagenes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .producto {
+    max-width: 80%;
+  }
+}

@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+#servicios {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #0a0a0a;
+}
+
+#servicios h2 {
+  font-size: 36px;
+  margin-bottom: 80px;
+  color: #4ef037;
+}
+
+.servicios-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.servicio {
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  padding: 30px 20px;
+  width: 250px;
+  box-shadow: 0 0 15px rgba(0, 255, 100, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.servicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(78, 240, 55, 0.4);
+}
+
+.servicio i {
+  font-size: 40px;
+  color: #4ef037;
+  margin-bottom: 15px;
+}
+
+.servicio h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.servicio p {
+  font-size: 15px;
+  color: #cfcfcf;
+}
+
+
+.volver-btn {
+  display: block;
+  margin: 40px auto 0;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: #0a0a0a;
+  background-color: #4ef037;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  width: fit-content;
+}
+
+.volver-btn:hover {
+  background-color: #3cc028;
+  transform: scale(1.05);
+}

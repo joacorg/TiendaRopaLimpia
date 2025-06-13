@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0D1117;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contacto-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.contacto-card {
+  max-width: 500px;
+  margin: auto;
+  background-color: #161B22;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 153, 0.2);
+  text-align: center;
+}
+
+.contacto-card h1 {
+  margin-bottom: 20px;
+  color: #00FF99;
+}
+
+.contacto-card p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.contacto-card a {
+  color: #58A6FF;
+  text-decoration: none;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #21262D;
+  color: #fff;
+  font-size: 14px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #888;
+}
+
+button {
+  padding: 12px;
+  background-color: #00FF99;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00cc7a;
+}
+
+.volver-btn {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  background: #21262D;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.volver-btn:hover {
+  background-color: #2d333b;
+}
