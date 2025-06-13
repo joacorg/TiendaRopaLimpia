@@ -388,50 +388,108 @@ body {
   }
 }
 
-/* Celulares: menos de 600px */
+
+
+
 @media (max-width: 600px) {
   body {
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 1.8em;
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 1.5em;
-    text-align: center;
+    padding: 0;
+    font-size: 16px;
   }
 
   .header {
     flex-direction: column;
     align-items: center;
+    height: auto;
+    padding: 15px 10px;
     text-align: center;
   }
 
-  .header .btn button {
-    padding: 10px 15px;
-    font-size: 16px;
+  .header .logo img {
+    height: 50px;
   }
 
-  .drop {
+  .header .nav-links {
+    display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 10px;
   }
 
-  .drop a {
-    font-size: 16px;
+  .header .btn {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  .producto {
-    width: 95%;
+  .portada img {
+    height: auto;
+    object-fit: cover;
+  }
+
+  .buscador-container {
+    margin: 20px 10px;
+  }
+
+  #buscador {
+    width: 100%;
+    font-size: 14px;
   }
 
   .productos {
-    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .producto {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .producto h3 {
+    font-size: 1.1rem;
+  }
+
+  .producto p {
+    font-size: 1rem;
+  }
+
+  .btn-carrito {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .contenido {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .bloque {
+    padding: 20px;
+  }
+
+  .bloque h2 {
+    font-size: 1.3rem;
+  }
+
+  .bloque p,
+  .ventajas li {
+    font-size: 0.95rem;
+  }
+
+  .catalogo h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 15px;
+    font-size: 14px;
   }
 }
+
 
 
 
